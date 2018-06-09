@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">课堂易签到.老师版</string>
+    <string name="text_1">输入任何字符，自动生成二维码</string>
+    <string name="text_2">生成二维码</string>
+    <string name="text_3">请输入学生姓名或学号</string>
+    <string name="text_4">请输入账号</string>
+    <string name="text_6">请输入密码</string>
+    <string name="text_7">记住密码</string>
+    <string name="text_8">忘记密码</string>
+    <string name="text_9">新用户注册</string>
+    <string name="text_10">登录</string>
+    <string name="text_11">学号或姓名不能为空</string>
+    <string name="text_12">登录成功</string>
+    <string name="text_13">账号或密码不能为空</string>
+    <string name="text_15">查询单个学生签到记录</string>
+    <string name="text_16">查询所有学生信息</string>
+    <string name="text_17">取消</string>
+    <string name="text_19">请记住密码</string>
+    <string name="text_18">请记住密码</string>
+    <string name="text_20">用户名</string>
+    <string name="text_21">请输入手机号</string>
+    <string name="text_22">请输入验证码</string>
+    <string name="text_23">获取</string>
+    <string name="text_24">注册</string>
+    <string name="text_25">取消</string>
+    <string name="text_26">请输入消息</string>
+    <string name="text_27">发布</string>
+
+
+</resources>

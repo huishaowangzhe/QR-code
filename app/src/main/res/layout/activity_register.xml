@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="geoquiz.android.bignerdranch.android.qr6.Register"
+    android:background="@mipmap/timg2">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp">
+        <ImageView
+            android:id="@+id/iv_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/user3"/>
+    <EditText
+        android:id="@+id/login_user_name"
+        android:hint="@string/text_20"
+        android:layout_width="350dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/num1"/>
+    <EditText
+        android:id="@+id/login_user_phone"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:hint="@string/text_21"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:src="@mipmap/yan" />
+
+        <EditText
+            android:id="@+id/login_user_testpass"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:hint="@string/text_22" />
+
+        <Button
+            android:id="@+id/send_testpass"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="290dp"
+            android:text="@string/text_23" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/password"
+            />
+
+    <EditText
+        android:id="@+id/login_user_pass"
+        android:hint="@string/text_6"
+        android:gravity="center"
+        android:layout_width="350dp"
+        android:password="true"
+        android:layout_height="wrap_content"
+        />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/activity_register_sure_textview"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#7FFFD4"
+            android:text="@string/text_24"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/cancel"
+            android:text="@string/text_25"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#A9A9A9"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

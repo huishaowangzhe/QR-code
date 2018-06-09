@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/timg1"
+    >
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/tu"
+        android:layout_marginLeft="120dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/user3"
+            />
+        <EditText
+            android:id="@+id/login_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="@string/text_4"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/password"
+            />
+        <EditText
+            android:id="@+id/login_user_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:password="true"
+            android:hint="@string/text_6"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/cb_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="@string/text_7" />
+
+        <ImageView
+            android:id="@+id/iv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:src="@mipmap/forget" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text="@string/text_8" />
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_check"
+            android:layout_marginLeft="20dp"
+            android:background="#00FFFF"
+            android:text="@string/text_10" />
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_3"
+            android:layout_marginLeft="200dp"
+            android:background="#00FFFF"
+            android:text="@string/text_17" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="160dp"
+            android:src="@mipmap/neus" />
+
+        <TextView
+            android:id="@+id/register_now"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="160dp"
+            android:gravity="center"
+            android:text="@string/text_9" />
+
+    </RelativeLayout>
+</LinearLayout>
